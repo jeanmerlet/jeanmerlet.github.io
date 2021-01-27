@@ -1,0 +1,118 @@
+{
+  "name": "covid_balf_infected",
+  "priority": 10,
+  "tags": [
+    "10x"
+  ],
+  "shortLabel": "covid test",
+  "exprMatrix": "/Users/6j9/projects/sars_cov_2/sc_BAL/data/gene-exp_matrices/count/below-mito90_gv0.001-gene-exp_uniq-genes-gv330_combined_infected_matrix.tsv.gz",
+  "geneIdType": "symbol",
+  "meta": "meta.tsv",
+  "enumFields": [
+    "cell_id"
+  ],
+  "coords": [
+    {
+      "file": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/coordinates/umap/pca_50_umap_neighb_30_umap_min_dist_0.3_seed_3271.tsv",
+      "flipY": false,
+      "shortLabel": "UMAP"
+    },
+    {
+      "file": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/coordinates/phate/5_nn_40_decay_infected.tsv",
+      "flipY": false,
+      "shortLabel": "5_nn_40_decay_phate"
+    },
+    {
+      "file": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/coordinates/phate/5_nn_60_decay_infected.tsv",
+      "flipY": false,
+      "shortLabel": "5_nn_60_decay_phate"
+    },
+    {
+      "file": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/coordinates/phate/5_nn_20_decay_infected.tsv",
+      "flipY": false,
+      "shortLabel": "5_nn_20_decay_phate"
+    },
+    {
+      "file": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/coordinates/phate/10_nn_60_decay_infected.tsv",
+      "flipY": false,
+      "shortLabel": "10_nn_60_decay_phate"
+    },
+    {
+      "file": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/coordinates/phate/3_nn_60_decay_infected.tsv",
+      "flipY": false,
+      "shortLabel": "3_nn_60_decay_phate"
+    },
+    {
+      "file": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/coordinates/phate/10_nn_40_decay_infected.tsv",
+      "flipY": false,
+      "shortLabel": "10_nn_40_decay_phate"
+    },
+    {
+      "file": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/coordinates/phate/3_nn_40_decay_infected.tsv",
+      "flipY": false,
+      "shortLabel": "3_nn_40_decay_phate"
+    },
+    {
+      "file": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/coordinates/phate/3_nn_20_decay_infected.tsv",
+      "flipY": false,
+      "shortLabel": "3_nn_20_decay_phate"
+    },
+    {
+      "file": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/coordinates/phate/10_nn_20_decay_infected.tsv",
+      "flipY": false,
+      "shortLabel": "10_nn_20_decay_phate"
+    },
+    {
+      "file": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/coordinates/tsne/50_pcs_50_perplex_infected.tsv",
+      "flipY": false,
+      "shortLabel": "50_pcs_50_perplex_tsne"
+    },
+    {
+      "file": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/coordinates/tsne/100_pcs_30_perplex_infected.tsv",
+      "flipY": false,
+      "shortLabel": "100_pcs_30_perplex_tsne"
+    },
+    {
+      "file": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/coordinates/tsne/30_pcs_30_perplex_infected.tsv",
+      "flipY": false,
+      "shortLabel": "30_pcs_30_perplex_tsne"
+    },
+    {
+      "file": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/coordinates/tsne/50_pcs_100_perplex_infected.tsv",
+      "flipY": false,
+      "shortLabel": "50_pcs_100_perplex_tsne"
+    },
+    {
+      "file": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/coordinates/tsne/30_pcs_100_perplex_infected.tsv",
+      "flipY": false,
+      "shortLabel": "30_pcs_100_perplex_tsne"
+    },
+    {
+      "file": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/coordinates/tsne/30_pcs_50_perplex_infected.tsv",
+      "flipY": false,
+      "shortLabel": "30_pcs_50_perplex_tsne"
+    },
+    {
+      "file": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/coordinates/tsne/100_pcs_50_perplex_infected.tsv",
+      "flipY": false,
+      "shortLabel": "100_pcs_50_perplex_tsne"
+    },
+    {
+      "file": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/coordinates/tsne/50_pcs_30_perplex_infected.tsv",
+      "flipY": false,
+      "shortLabel": "50_pcs_30_perplex_tsne"
+    },
+    {
+      "file": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/coordinates/tsne/100_pcs_100_perplex_infected.tsv",
+      "flipY": false,
+      "shortLabel": "100_pcs_100_perplex_tsne"
+    }
+  ],
+  "clusterField": "cell_type",
+  "labelField": "cell_type",
+  "showLabels": true,
+  "unit": "UMI count",
+  "matrixType": "auto",
+  "ucscDb": "hg38",
+  "inDir": ""
+}

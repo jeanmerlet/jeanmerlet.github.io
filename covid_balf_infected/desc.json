@@ -1,0 +1,28 @@
+{
+  "title": "Covid BALF infected",
+  "abstract": "Please edit desc.conf to change this text or comment out the \nabstract= line and create abstract.html in the same directory as desc.conf\n",
+  "methods": "\nPlease edit desc.conf to change this text or comment out the methods= line and create methods.html in the same directory as desc.conf\n",
+  "inDir": "",
+  "coordFiles": [
+    "UMAP.coords.tsv.gz",
+    "5_nn_40_decay_phate.coords.tsv.gz",
+    "5_nn_60_decay_phate.coords.tsv.gz",
+    "5_nn_20_decay_phate.coords.tsv.gz",
+    "10_nn_60_decay_phate.coords.tsv.gz",
+    "3_nn_60_decay_phate.coords.tsv.gz",
+    "10_nn_40_decay_phate.coords.tsv.gz",
+    "3_nn_40_decay_phate.coords.tsv.gz",
+    "3_nn_20_decay_phate.coords.tsv.gz",
+    "10_nn_20_decay_phate.coords.tsv.gz",
+    "50_pcs_50_perplex_tsne.coords.tsv.gz",
+    "100_pcs_30_perplex_tsne.coords.tsv.gz",
+    "30_pcs_30_perplex_tsne.coords.tsv.gz",
+    "50_pcs_100_perplex_tsne.coords.tsv.gz",
+    "30_pcs_100_perplex_tsne.coords.tsv.gz",
+    "30_pcs_50_perplex_tsne.coords.tsv.gz",
+    "100_pcs_50_perplex_tsne.coords.tsv.gz",
+    "50_pcs_30_perplex_tsne.coords.tsv.gz",
+    "100_pcs_100_perplex_tsne.coords.tsv.gz"
+  ],
+  "matrixFile": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/github_io/covid_balf_infected/exprMatrix.tsv.gz"
+}
