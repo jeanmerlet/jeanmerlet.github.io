@@ -108,8 +108,8 @@
       "shortLabel": "100_pcs_100_perplex_tsne"
     }
   ],
-  "clusterField": "cell_type",
-  "labelField": "cell_type",
+  "clusterField": "seurat_clusters",
+  "labelField": "seurat_clusters",
   "showLabels": true,
   "unit": "UMI count",
   "matrixType": "auto",

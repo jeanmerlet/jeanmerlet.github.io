@@ -1,17 +1,5 @@
 {
   "fileVersions": {
-    "inMeta": {
-      "fname": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/meta.tsv",
-      "md5": "4e9aa6afa9",
-      "size": 2066091,
-      "mtime": "2021-01-22 15:43:59"
-    },
-    "outMeta": {
-      "fname": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/github_io/covid_balf_infected/meta.tsv",
-      "md5": "4e9aa6afa9",
-      "size": 2066091,
-      "mtime": "2021-01-27 22:43:35"
-    },
     "inMatrix": {
       "fname": "/Users/6j9/projects/sars_cov_2/sc_BAL/data/gene-exp_matrices/count/below-mito90_gv0.001-gene-exp_uniq-genes-gv330_combined_infected_matrix.tsv.gz",
       "md5": "325d1fc037",
@@ -24,6 +12,18 @@
       "size": 86603757,
       "mtime": "2021-01-27 22:43:36"
     },
+    "inMeta": {
+      "fname": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/meta.tsv",
+      "md5": "85390a1e74",
+      "size": 2484399,
+      "mtime": "2021-01-29 17:52:01"
+    },
+    "outMeta": {
+      "fname": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/github_io/covid_balf_infected/meta.tsv",
+      "md5": "85390a1e74",
+      "size": 2484399,
+      "mtime": "2021-01-29 17:52:48"
+    },
     "desc": {
       "fname": "desc.conf",
       "md5": "f8c996cadd",
@@ -32,11 +32,12 @@
     },
     "conf": {
       "fname": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/cellbrowser.conf",
-      "md5": "240c793b50",
-      "size": 8730,
-      "mtime": "2021-01-27 22:43:20"
+      "md5": "8ba05a2d4f",
+      "size": 8742,
+      "mtime": "2021-01-29 17:52:30"
     }
   },
+  "matrixArrType": "Uint32",
   "sampleCount": 31968,
   "matrixWasFiltered": false,
   "metaFields": [
@@ -46,7 +47,7 @@
       "type": "uniqueString",
       "maxSize": 28,
       "diffValCount": 31968,
-      "md5": "22140d5802"
+      "md5": "25c6ee5907"
     },
     {
       "name": "patient",
@@ -92,7 +93,7 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 9,
-      "md5": "b069c6a0bd"
+      "md5": "3f2bf3f4a4"
     },
     {
       "name": "cell_type",
@@ -234,7 +235,7 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 33,
-      "md5": "d245d120a0"
+      "md5": "0ae994e040"
     },
     {
       "name": "severity",
@@ -252,7 +253,7 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 2,
-      "md5": "8511b74a71"
+      "md5": "a980a6263f"
     },
     {
       "name": "irf_cluster",
@@ -1330,7 +1331,7 @@
       ],
       "arrType": "Uint16",
       "diffValCount": 267,
-      "md5": "e69d29817b"
+      "md5": "f686039b7e"
     },
     {
       "name": "seurat_clusters",
@@ -1338,61 +1339,60 @@
       "type": "enum",
       "valCounts": [
         [
-          "0",
+          "Monocytes",
           14538
         ],
         [
-          "1",
+          "Monocyte-derived Macrophages",
           6412
         ],
         [
-          "2",
+          "T-cells",
           1987
         ],
         [
-          "3",
+          "Fibrotic Macrophages",
           1456
         ],
         [
-          "4",
+          "T/NK cells",
           1421
         ],
         [
-          "5",
+          "Epithelial cells",
           1337
         ],
         [
-          "6",
+          "NK cells",
           1312
         ],
         [
-          "7",
+          "Ciliated cells",
           1260
         ],
         [
-          "8",
+          "Plasma B-cells",
           814
         ],
         [
-          "9",
+          "Alveolar Macrophage 1",
           785
         ],
         [
-          "10",
+          "DC cells",
           590
         ],
         [
-          "11",
+          "Alveolar Macrophage 2",
           56
         ]
       ],
       "arrType": "Uint8",
       "diffValCount": 12,
-      "md5": "1511818897"
+      "md5": "66761e30d9"
     }
   ],
-  "matrixArrType": "Uint32",
-  "labelField": "cell_type",
+  "labelField": "seurat_clusters",
   "coords": [
     {
       "name": "coords_0",
@@ -1614,9 +1614,9 @@
   "tags": [
     "10x"
   ],
-  "clusterField": "cell_type",
+  "clusterField": "seurat_clusters",
   "showLabels": true,
   "ucscDb": "hg38",
   "unit": "UMI count",
-  "md5": "133c01d587"
+  "md5": "971bd53dcd"
 }
