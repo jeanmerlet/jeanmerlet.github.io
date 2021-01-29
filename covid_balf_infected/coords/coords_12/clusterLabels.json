@@ -1,8 +1,8 @@
 {
   "labels": [
     [
-      35006.39829009434,
-      41168.82920597484,
+      34996.28086147822,
+      41108.4729319628,
       "Monocytes"
     ],
     [
@@ -46,11 +46,6 @@
       "Epithelial cells"
     ],
     [
-      32899.256410256414,
-      21514.23076923077,
-      "Alveolar Macrophage 2"
-    ],
-    [
       12725.105633802817,
       22873.197183098593,
       "T/NK cells"
@@ -63,15 +58,14 @@
   ],
   "order": [
     "Monocytes",
-    "Alveolar Macrophage 2",
-    "Alveolar Macrophage 1",
-    "Epithelial cells",
-    "Ciliated cells",
     "Pro-fibrotic Macrophages",
     "NK cells",
     "T/NK cells",
     "T-cells",
     "Plasma B-cells",
+    "Ciliated cells",
+    "Alveolar Macrophage 1",
+    "Epithelial cells",
     "Monocyte-derived Macrophages",
     "Dendritic cells"
   ]

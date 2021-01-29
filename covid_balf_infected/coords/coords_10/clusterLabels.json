@@ -1,8 +1,8 @@
 {
   "labels": [
     [
-      19377.118219339623,
-      40492.42364386792,
+      19427.766421928536,
+      40499.403915810086,
       "Monocytes"
     ],
     [
@@ -46,11 +46,6 @@
       "Epithelial cells"
     ],
     [
-      39531.717948717946,
-      37144.58974358974,
-      "Alveolar Macrophage 2"
-    ],
-    [
       47842.66096579477,
       48406.62374245473,
       "T/NK cells"
@@ -67,7 +62,6 @@
     "NK cells",
     "T-cells",
     "T/NK cells",
-    "Alveolar Macrophage 2",
     "Epithelial cells",
     "Ciliated cells",
     "Alveolar Macrophage 1",
