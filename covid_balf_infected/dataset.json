@@ -14,15 +14,15 @@
     },
     "inMeta": {
       "fname": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/meta.tsv",
-      "md5": "799e914485",
-      "size": 2493681,
-      "mtime": "2021-01-29 18:09:12"
+      "md5": "8679db7bf2",
+      "size": 2492896,
+      "mtime": "2021-01-29 18:39:26"
     },
     "outMeta": {
       "fname": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/github_io/covid_balf_infected/meta.tsv",
-      "md5": "799e914485",
-      "size": 2493681,
-      "mtime": "2021-01-29 18:09:17"
+      "md5": "8679db7bf2",
+      "size": 2492896,
+      "mtime": "2021-01-29 19:19:24"
     },
     "desc": {
       "fname": "desc.conf",
@@ -47,7 +47,7 @@
       "type": "uniqueString",
       "maxSize": 28,
       "diffValCount": 31968,
-      "md5": "f5e52e81ef"
+      "md5": "50a246e29d"
     },
     {
       "name": "patient",
@@ -93,7 +93,7 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 9,
-      "md5": "0abcbc129c"
+      "md5": "833e6ed99e"
     },
     {
       "name": "cell_type",
@@ -235,7 +235,7 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 33,
-      "md5": "7aa5cb3926"
+      "md5": "17e7f1e972"
     },
     {
       "name": "severity",
@@ -253,7 +253,7 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 2,
-      "md5": "ddcb8849dd"
+      "md5": "a25a2ecbfe"
     },
     {
       "name": "irf_cluster",
@@ -1331,7 +1331,7 @@
       ],
       "arrType": "Uint16",
       "diffValCount": 267,
-      "md5": "0d061c2e71"
+      "md5": "c8a36deb8b"
     },
     {
       "name": "seurat_clusters",
@@ -1375,7 +1375,7 @@
           814
         ],
         [
-          "Alveolar Macrophage 1",
+          "Alveolar Macrophages",
           785
         ],
         [
@@ -1385,7 +1385,7 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 11,
-      "md5": "9acaedf9c9"
+      "md5": "feb020c085"
     }
   ],
   "labelField": "seurat_clusters",
@@ -1614,5 +1614,5 @@
   "showLabels": true,
   "ucscDb": "hg38",
   "unit": "UMI count",
-  "md5": "ba7b48a4f6"
+  "md5": "c8fe21d6d4"
 }
