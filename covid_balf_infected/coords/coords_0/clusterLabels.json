@@ -28,7 +28,7 @@
     [
       33106.905569007264,
       33436.5205811138,
-      "DC cells"
+      "Dendritic cells"
     ],
     [
       42405.93525179856,
@@ -64,7 +64,7 @@
   "order": [
     "Monocytes",
     "Fibrotic Macrophages",
-    "DC cells",
+    "Dendritic cells",
     "T/NK cells",
     "T-cells",
     "NK cells",

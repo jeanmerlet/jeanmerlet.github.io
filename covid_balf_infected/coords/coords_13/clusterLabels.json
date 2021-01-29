@@ -28,7 +28,7 @@
     [
       45039.13075060533,
       44404.99757869249,
-      "DC cells"
+      "Dendritic cells"
     ],
     [
       58472.836690647484,
@@ -72,7 +72,7 @@
     "Plasma B-cells",
     "T/NK cells",
     "NK cells",
-    "DC cells",
+    "Dendritic cells",
     "T-cells"
   ]
 }

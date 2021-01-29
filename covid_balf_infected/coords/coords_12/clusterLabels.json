@@ -28,7 +28,7 @@
     [
       58876.71428571428,
       43385.83535108959,
-      "DC cells"
+      "Dendritic cells"
     ],
     [
       4027.9748201438847,
@@ -73,6 +73,6 @@
     "T-cells",
     "Plasma B-cells",
     "Monocyte-derived Macrophages",
-    "DC cells"
+    "Dendritic cells"
   ]
 }

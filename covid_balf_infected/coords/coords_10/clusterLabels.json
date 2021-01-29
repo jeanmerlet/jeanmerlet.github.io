@@ -28,7 +28,7 @@
     [
       10323.646489104116,
       12708.372881355932,
-      "DC cells"
+      "Dendritic cells"
     ],
     [
       52993.06474820144,
@@ -73,6 +73,6 @@
     "Alveolar Macrophage 1",
     "Monocyte-derived Macrophages",
     "Plasma B-cells",
-    "DC cells"
+    "Dendritic cells"
   ]
 }

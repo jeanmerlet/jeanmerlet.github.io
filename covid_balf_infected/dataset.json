@@ -1,5 +1,17 @@
 {
   "fileVersions": {
+    "inMeta": {
+      "fname": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/meta.tsv",
+      "md5": "cbce291134",
+      "size": 2488529,
+      "mtime": "2021-01-29 17:55:34"
+    },
+    "outMeta": {
+      "fname": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/github_io/covid_balf_infected/meta.tsv",
+      "md5": "cbce291134",
+      "size": 2488529,
+      "mtime": "2021-01-29 17:58:08"
+    },
     "inMatrix": {
       "fname": "/Users/6j9/projects/sars_cov_2/sc_BAL/data/gene-exp_matrices/count/below-mito90_gv0.001-gene-exp_uniq-genes-gv330_combined_infected_matrix.tsv.gz",
       "md5": "325d1fc037",
@@ -10,19 +22,7 @@
       "fname": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/github_io/covid_balf_infected/exprMatrix.tsv.gz",
       "md5": "325d1fc037",
       "size": 86603757,
-      "mtime": "2021-01-27 22:43:36"
-    },
-    "inMeta": {
-      "fname": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/meta.tsv",
-      "md5": "85390a1e74",
-      "size": 2484399,
-      "mtime": "2021-01-29 17:52:01"
-    },
-    "outMeta": {
-      "fname": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/github_io/covid_balf_infected/meta.tsv",
-      "md5": "85390a1e74",
-      "size": 2484399,
-      "mtime": "2021-01-29 17:52:48"
+      "mtime": "2021-01-29 17:58:10"
     },
     "desc": {
       "fname": "desc.conf",
@@ -37,7 +37,6 @@
       "mtime": "2021-01-29 17:52:30"
     }
   },
-  "matrixArrType": "Uint32",
   "sampleCount": 31968,
   "matrixWasFiltered": false,
   "metaFields": [
@@ -47,7 +46,7 @@
       "type": "uniqueString",
       "maxSize": 28,
       "diffValCount": 31968,
-      "md5": "25c6ee5907"
+      "md5": "7868d4113f"
     },
     {
       "name": "patient",
@@ -93,7 +92,7 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 9,
-      "md5": "3f2bf3f4a4"
+      "md5": "59572214de"
     },
     {
       "name": "cell_type",
@@ -235,7 +234,7 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 33,
-      "md5": "0ae994e040"
+      "md5": "a7101634e0"
     },
     {
       "name": "severity",
@@ -253,7 +252,7 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 2,
-      "md5": "a980a6263f"
+      "md5": "31df08b23c"
     },
     {
       "name": "irf_cluster",
@@ -1331,7 +1330,7 @@
       ],
       "arrType": "Uint16",
       "diffValCount": 267,
-      "md5": "f686039b7e"
+      "md5": "7e1f3dd516"
     },
     {
       "name": "seurat_clusters",
@@ -1379,7 +1378,7 @@
           785
         ],
         [
-          "DC cells",
+          "Dendritic cells",
           590
         ],
         [
@@ -1389,9 +1388,10 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 12,
-      "md5": "66761e30d9"
+      "md5": "9cb071a978"
     }
   ],
+  "matrixArrType": "Uint32",
   "labelField": "seurat_clusters",
   "coords": [
     {
@@ -1618,5 +1618,5 @@
   "showLabels": true,
   "ucscDb": "hg38",
   "unit": "UMI count",
-  "md5": "971bd53dcd"
+  "md5": "ea52c1567b"
 }
