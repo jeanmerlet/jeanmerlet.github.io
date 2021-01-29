@@ -58,12 +58,12 @@
     [
       48497.426889106966,
       36339.599607458294,
-      "Fibrotic Macrophages"
+      "Pro-fibrotic Macrophages"
     ]
   ],
   "order": [
     "Monocytes",
-    "Fibrotic Macrophages",
+    "Pro-fibrotic Macrophages",
     "Dendritic cells",
     "T/NK cells",
     "T-cells",

@@ -58,12 +58,12 @@
     [
       7028.418056918547,
       25053.029440628066,
-      "Fibrotic Macrophages"
+      "Pro-fibrotic Macrophages"
     ]
   ],
   "order": [
     "Monocytes",
-    "Fibrotic Macrophages",
+    "Pro-fibrotic Macrophages",
     "Monocyte-derived Macrophages",
     "Alveolar Macrophage 2",
     "Alveolar Macrophage 1",

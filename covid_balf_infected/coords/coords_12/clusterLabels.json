@@ -58,7 +58,7 @@
     [
       21534.059862610404,
       26595.49263984298,
-      "Fibrotic Macrophages"
+      "Pro-fibrotic Macrophages"
     ]
   ],
   "order": [
@@ -67,7 +67,7 @@
     "Alveolar Macrophage 1",
     "Epithelial cells",
     "Ciliated cells",
-    "Fibrotic Macrophages",
+    "Pro-fibrotic Macrophages",
     "NK cells",
     "T/NK cells",
     "T-cells",
