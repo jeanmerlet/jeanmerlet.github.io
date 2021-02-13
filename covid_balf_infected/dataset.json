@@ -14,15 +14,15 @@
     },
     "inMeta": {
       "fname": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/meta.tsv",
-      "md5": "8679db7bf2",
-      "size": 2492896,
-      "mtime": "2021-01-29 18:39:26"
+      "md5": "e93700eae7",
+      "size": 2477689,
+      "mtime": "2021-02-13 17:37:23"
     },
     "outMeta": {
       "fname": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/github_io/covid_balf_infected/meta.tsv",
-      "md5": "8679db7bf2",
-      "size": 2492896,
-      "mtime": "2021-01-29 19:19:24"
+      "md5": "e93700eae7",
+      "size": 2477689,
+      "mtime": "2021-02-13 17:38:46"
     },
     "desc": {
       "fname": "desc.conf",
@@ -47,7 +47,7 @@
       "type": "uniqueString",
       "maxSize": 28,
       "diffValCount": 31968,
-      "md5": "50a246e29d"
+      "md5": "f913748092"
     },
     {
       "name": "patient",
@@ -93,149 +93,7 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 9,
-      "md5": "833e6ed99e"
-    },
-    {
-      "name": "cell_type",
-      "label": "cell_type",
-      "type": "enum",
-      "valCounts": [
-        [
-          "Mast / Basophils",
-          10432
-        ],
-        [
-          "Macrophages",
-          4879
-        ],
-        [
-          "T cells",
-          4077
-        ],
-        [
-          "other",
-          2348
-        ],
-        [
-          "Memory B cells",
-          1491
-        ],
-        [
-          "Tfh cells",
-          1266
-        ],
-        [
-          "Ciliated",
-          1071
-        ],
-        [
-          "Monocytes",
-          997
-        ],
-        [
-          "Plasma B cells",
-          844
-        ],
-        [
-          "Secretory",
-          692
-        ],
-        [
-          "NK cells",
-          494
-        ],
-        [
-          "Nuocytes",
-          452
-        ],
-        [
-          "Endothelial",
-          326
-        ],
-        [
-          "Plasmacytoid DC",
-          318
-        ],
-        [
-          "Platelets",
-          316
-        ],
-        [
-          "Treg cells",
-          285
-        ],
-        [
-          "Neutrophils",
-          195
-        ],
-        [
-          "B cells",
-          193
-        ],
-        [
-          "Basal",
-          182
-        ],
-        [
-          "Th1 cells",
-          169
-        ],
-        [
-          "Dendritic cells",
-          110
-        ],
-        [
-          "Pericytes",
-          109
-        ],
-        [
-          "AT1",
-          104
-        ],
-        [
-          "Th2 cells",
-          98
-        ],
-        [
-          "Th17 cells",
-          93
-        ],
-        [
-          "Brush",
-          82
-        ],
-        [
-          "Fibroblasts",
-          79
-        ],
-        [
-          "Naive CD4+ (Th0) T cells",
-          60
-        ],
-        [
-          "AT2",
-          58
-        ],
-        [
-          "T memory cells",
-          57
-        ],
-        [
-          "Mucous",
-          41
-        ],
-        [
-          "Ionocytes",
-          35
-        ],
-        [
-          "Smooth muscle",
-          15
-        ]
-      ],
-      "arrType": "Uint8",
-      "diffValCount": 33,
-      "md5": "17e7f1e972"
+      "md5": "799546c278"
     },
     {
       "name": "severity",
@@ -253,7 +111,7 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 2,
-      "md5": "a25a2ecbfe"
+      "md5": "4879ad3ba3"
     },
     {
       "name": "irf_cluster",
@@ -1331,7 +1189,7 @@
       ],
       "arrType": "Uint16",
       "diffValCount": 267,
-      "md5": "c8a36deb8b"
+      "md5": "48af985f6f"
     },
     {
       "name": "seurat_clusters",
@@ -1385,7 +1243,117 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 11,
-      "md5": "feb020c085"
+      "md5": "5f576e71c0"
+    },
+    {
+      "name": "cell_type",
+      "label": "cell_type",
+      "type": "enum",
+      "valCounts": [
+        [
+          "other",
+          10094
+        ],
+        [
+          "Pro-fibrotic Macrophages",
+          4276
+        ],
+        [
+          "Monocytes",
+          3352
+        ],
+        [
+          "T cells",
+          3204
+        ],
+        [
+          "Alveolar Macrophages",
+          2935
+        ],
+        [
+          "NK cells",
+          1589
+        ],
+        [
+          "MD Macrophages",
+          1408
+        ],
+        [
+          "Ciliated",
+          1070
+        ],
+        [
+          "Plasma B cells",
+          840
+        ],
+        [
+          "Nuocytes (ILC2)",
+          768
+        ],
+        [
+          "Secretory",
+          701
+        ],
+        [
+          "Endothelial",
+          316
+        ],
+        [
+          "B cells",
+          217
+        ],
+        [
+          "Neutrophils",
+          204
+        ],
+        [
+          "Basal",
+          192
+        ],
+        [
+          "AT1",
+          153
+        ],
+        [
+          "Plasmacytoid DC",
+          128
+        ],
+        [
+          "Pericytes",
+          121
+        ],
+        [
+          "Fibroblasts",
+          82
+        ],
+        [
+          "Brush",
+          81
+        ],
+        [
+          "Mucous",
+          65
+        ],
+        [
+          "Dendritic cells",
+          60
+        ],
+        [
+          "AT2",
+          57
+        ],
+        [
+          "Pulmonary Ionocytes",
+          36
+        ],
+        [
+          "Platelets",
+          19
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 25,
+      "md5": "e61d74d114"
     }
   ],
   "labelField": "seurat_clusters",
@@ -1614,5 +1582,5 @@
   "showLabels": true,
   "ucscDb": "hg38",
   "unit": "UMI count",
-  "md5": "c8fe21d6d4"
+  "md5": "c47f6b3bc4"
 }
