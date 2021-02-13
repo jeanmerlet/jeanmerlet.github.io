@@ -14,15 +14,15 @@
     },
     "inMeta": {
       "fname": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/meta.tsv",
-      "md5": "e93700eae7",
-      "size": 2477689,
-      "mtime": "2021-02-13 17:37:23"
+      "md5": "afdb9913a2",
+      "size": 2482917,
+      "mtime": "2021-02-13 19:20:50"
     },
     "outMeta": {
       "fname": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/github_io/covid_balf_infected/meta.tsv",
-      "md5": "e93700eae7",
-      "size": 2477689,
-      "mtime": "2021-02-13 17:38:46"
+      "md5": "afdb9913a2",
+      "size": 2482917,
+      "mtime": "2021-02-13 19:21:09"
     },
     "desc": {
       "fname": "desc.conf",
@@ -47,7 +47,7 @@
       "type": "uniqueString",
       "maxSize": 28,
       "diffValCount": 31968,
-      "md5": "f913748092"
+      "md5": "ccd5b096f9"
     },
     {
       "name": "patient",
@@ -93,7 +93,7 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 9,
-      "md5": "799546c278"
+      "md5": "8ece568c49"
     },
     {
       "name": "severity",
@@ -111,7 +111,7 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 2,
-      "md5": "4879ad3ba3"
+      "md5": "86699def83"
     },
     {
       "name": "irf_cluster",
@@ -1189,7 +1189,7 @@
       ],
       "arrType": "Uint16",
       "diffValCount": 267,
-      "md5": "48af985f6f"
+      "md5": "c93475d9fd"
     },
     {
       "name": "seurat_clusters",
@@ -1243,7 +1243,7 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 11,
-      "md5": "5f576e71c0"
+      "md5": "5314956b77"
     },
     {
       "name": "cell_type",
@@ -1252,99 +1252,91 @@
       "valCounts": [
         [
           "other",
-          10094
+          10023
         ],
         [
           "Pro-fibrotic Macrophages",
-          4276
-        ],
-        [
-          "Monocytes",
-          3352
+          4353
         ],
         [
           "T cells",
-          3204
+          3734
         ],
         [
           "Alveolar Macrophages",
-          2935
+          3712
         ],
         [
-          "NK cells",
-          1589
+          "Monocytes",
+          3421
         ],
         [
           "MD Macrophages",
-          1408
+          1616
+        ],
+        [
+          "NK cells",
+          1141
         ],
         [
           "Ciliated",
-          1070
+          1077
         ],
         [
           "Plasma B cells",
-          840
-        ],
-        [
-          "Nuocytes (ILC2)",
-          768
+          815
         ],
         [
           "Secretory",
-          701
-        ],
-        [
-          "Endothelial",
-          316
+          686
         ],
         [
           "B cells",
-          217
+          239
         ],
         [
           "Neutrophils",
-          204
+          210
         ],
         [
           "Basal",
-          192
+          193
         ],
         [
           "AT1",
-          153
-        ],
-        [
-          "Plasmacytoid DC",
-          128
-        ],
-        [
-          "Pericytes",
-          121
-        ],
-        [
-          "Fibroblasts",
-          82
-        ],
-        [
-          "Brush",
-          81
-        ],
-        [
-          "Mucous",
-          65
+          130
         ],
         [
           "Dendritic cells",
+          116
+        ],
+        [
+          "Fibroblasts",
+          93
+        ],
+        [
+          "Pericytes",
+          92
+        ],
+        [
+          "Mucous",
+          75
+        ],
+        [
+          "Plasmacytoid DC",
+          73
+        ],
+        [
+          "Brush",
           60
         ],
         [
           "AT2",
-          57
+          55
         ],
         [
           "Pulmonary Ionocytes",
-          36
+          35
         ],
         [
           "Platelets",
@@ -1352,8 +1344,8 @@
         ]
       ],
       "arrType": "Uint8",
-      "diffValCount": 25,
-      "md5": "e61d74d114"
+      "diffValCount": 23,
+      "md5": "dbe6c24018"
     }
   ],
   "labelField": "seurat_clusters",
@@ -1582,5 +1574,5 @@
   "showLabels": true,
   "ucscDb": "hg38",
   "unit": "UMI count",
-  "md5": "c47f6b3bc4"
+  "md5": "0bc3b02b4e"
 }
