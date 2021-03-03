@@ -14,15 +14,15 @@
     },
     "inMeta": {
       "fname": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/infected/meta.tsv",
-      "md5": "afdb9913a2",
-      "size": 2482917,
-      "mtime": "2021-02-13 19:20:50"
+      "md5": "fcb296e268",
+      "size": 2478673,
+      "mtime": "2021-03-03 17:39:29"
     },
     "outMeta": {
       "fname": "/Users/6j9/projects/sars_cov_2/sc_BAL/ucsc/github_io/covid_balf_infected/meta.tsv",
-      "md5": "afdb9913a2",
-      "size": 2482917,
-      "mtime": "2021-02-13 19:21:09"
+      "md5": "fcb296e268",
+      "size": 2478673,
+      "mtime": "2021-03-03 17:39:47"
     },
     "desc": {
       "fname": "desc.conf",
@@ -47,7 +47,7 @@
       "type": "uniqueString",
       "maxSize": 28,
       "diffValCount": 31968,
-      "md5": "ccd5b096f9"
+      "md5": "4fa38a7ec4"
     },
     {
       "name": "patient",
@@ -93,7 +93,7 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 9,
-      "md5": "8ece568c49"
+      "md5": "4b0f3ba87c"
     },
     {
       "name": "severity",
@@ -111,7 +111,7 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 2,
-      "md5": "86699def83"
+      "md5": "49611d184f"
     },
     {
       "name": "irf_cluster",
@@ -1189,7 +1189,7 @@
       ],
       "arrType": "Uint16",
       "diffValCount": 267,
-      "md5": "c93475d9fd"
+      "md5": "471f69f69d"
     },
     {
       "name": "seurat_clusters",
@@ -1201,7 +1201,7 @@
           14594
         ],
         [
-          "Monocyte-derived Macrophages",
+          "Pro-fibrotic Macrophages",
           6412
         ],
         [
@@ -1209,7 +1209,7 @@
           1987
         ],
         [
-          "Pro-fibrotic Macrophages",
+          "Monocyte-derived Macrophages",
           1456
         ],
         [
@@ -1243,7 +1243,7 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 11,
-      "md5": "5314956b77"
+      "md5": "a654a0d1ce"
     },
     {
       "name": "cell_type",
@@ -1255,8 +1255,8 @@
           10023
         ],
         [
-          "Pro-fibrotic Macrophages",
-          4353
+          "Monocyte-derived Macrophages",
+          3895
         ],
         [
           "T cells",
@@ -1289,6 +1289,10 @@
         [
           "Secretory",
           686
+        ],
+        [
+          "Pro-fibrotic Macrophages",
+          458
         ],
         [
           "B cells",
@@ -1344,8 +1348,8 @@
         ]
       ],
       "arrType": "Uint8",
-      "diffValCount": 23,
-      "md5": "dbe6c24018"
+      "diffValCount": 24,
+      "md5": "a4da3c9e5f"
     }
   ],
   "labelField": "seurat_clusters",
@@ -1574,5 +1578,5 @@
   "showLabels": true,
   "ucscDb": "hg38",
   "unit": "UMI count",
-  "md5": "0bc3b02b4e"
+  "md5": "12632bdc42"
 }

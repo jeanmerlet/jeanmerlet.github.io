@@ -8,7 +8,7 @@
     [
       28988.454322638147,
       43734.01515151515,
-      "Monocyte-derived Macrophages"
+      "Pro-fibrotic Macrophages"
     ],
     [
       35721.692167577414,
@@ -53,19 +53,19 @@
     [
       39865.626104023555,
       22159.684003925417,
-      "Pro-fibrotic Macrophages"
+      "Monocyte-derived Macrophages"
     ]
   ],
   "order": [
     "Monocytes",
-    "Pro-fibrotic Macrophages",
+    "Monocyte-derived Macrophages",
     "T/NK cells",
     "T-cells",
     "NK cells",
     "Plasma B-cells",
     "Dendritic cells",
     "Alveolar Macrophages",
-    "Monocyte-derived Macrophages",
+    "Pro-fibrotic Macrophages",
     "Ciliated cells",
     "Epithelial cells"
   ]
